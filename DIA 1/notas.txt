@@ -1,0 +1,63 @@
+🟢 Ejercicio 1 — Variables
+
+Crea un programa que tenga:
+
+nombre
+edad
+altura
+estudiante
+
+Y que imprima algo como:
+
+Nombre: Juan
+Edad: 20
+Altura: 1.75
+¿Es estudiante?: true
+
+Tienes que decidir tú qué tipos usar (String, int, double, boolean).
+
+🟢 Ejercicio 2 — Operaciones
+
+Crea un programa con:
+
+precio
+cantidad
+
+Y calcula:
+
+precio total = precio × cantidad
+
+Por ejemplo:
+
+Precio: 15000
+Cantidad: 3
+Total: 45000
+
+Aquí quiero que practiques variables + operaciones + System.out.println().
+
+🟢 Ejercicio 3 — Scanner
+
+Ahora haz un programa que le pregunte al usuario:
+
+¿Cuál es tu nombre?
+¿Cuál es tu edad?
+
+Y después muestre:
+
+Hola Juan, tienes 20 años.
+
+Aquí tienes que utilizar:
+
+import java.util.Scanner;
+
+y crear un Scanner.
+
+🧠 Mini-reto
+
+Cuando termines los tres, intenta hacer un programa que pregunte:
+
+Nombre
+Edad
+Ciudad
+
+Y muestre una frase combinando los tres datos.
