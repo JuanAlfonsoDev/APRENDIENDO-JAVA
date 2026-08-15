@@ -1,0 +1,11 @@
+Por ejemplo:
+
+Nota 0–2.9   → Reprobado
+Nota 3.0–3.9 → Aprobado
+Nota 4.0–5.0 → Excelente
+
+Ahí entra else if.
+
+Pero antes de explicártelo, quiero preguntarte algo:
+
+Si tuvieras que hacer ese programa, ¿cómo crees que podrías hacerlo usando lo que ya sabes?la carrera.
