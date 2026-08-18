@@ -1,0 +1,118 @@
+💻 EJERCICIO 1
+
+Ahora vamos a utilizar lo aprendido.
+
+Haz un programa que pregunte:
+
+¿Cuál es tu edad?
+
+Y determine si puede acceder a una promoción.
+
+La regla es:
+
+Puede acceder si tiene menos de 18 años O más de 60 años.
+
+Ejemplos:
+
+Edad: 15
+Puede acceder a la promoción
+Edad: 30
+No puede acceder
+Edad: 70
+Puede acceder a la promoción
+Pista
+
+Vas a necesitar:
+
+||
+
+Y ya sabes utilizar:
+
+Scanner
+if
+else
+nextInt()
+
+
+
+🧪 EJERCICIO 2 — !
+
+Ahora vamos con el operador !.
+
+Crea:
+
+boolean estudiante = true;
+
+Y haz que el programa diga:
+
+Eres estudiante
+
+si estudiante es true, y:
+
+No eres estudiante
+
+si estudiante es false.
+
+Pero hay una condición:
+
+Quiero que utilices ! en tu if.
+
+Por ejemplo, conceptualmente:
+
+if (!__________) {
+    ...
+}
+
+No te voy a decir qué poner dentro.
+
+
+
+
+🎯 Ejercicio final del Día 3
+
+Vamos a combinar todo.
+
+Haz un programa que pregunte:
+
+Edad:
+
+Y determine si puede entrar a un club juvenil.
+
+Reglas
+
+Puede entrar si:
+
+Tiene entre 12 y 18 años (inclusive)
+
+o
+
+Tiene una invitación especial.
+
+Variables:
+
+int edad
+boolean invitacionEspecial
+
+Ejemplos:
+
+Edad: 15
+Invitación: false
+
+
+→ Puede entrar
+Edad: 20
+Invitación: false
+
+
+→ No puede entrar
+Edad: 20
+Invitación: true
+
+
+→ Puede entrar
+Pista
+
+Vas a necesitar combinar:
+
+&&
+||
