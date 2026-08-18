@@ -1,0 +1,113 @@
+🎯 EJERCICIO 1
+
+Ahora haz tú un programa con este menú:
+
+===== MENÚ =====
+
+
+1. Saludar
+2. Mostrar nombre
+3. Mostrar edad
+4. Salir
+
+
+Seleccione una opción:
+
+Dependiendo de lo que introduzca el usuario:
+
+1:
+
+Hola, bienvenido
+
+2:
+
+Mi nombre es Juan
+
+3:
+
+Tengo 19 años
+
+4:
+
+Saliendo del programa...
+
+Cualquier otro número:
+
+Opción no válida
+Reglas
+
+Utiliza:
+
+Scanner
+int
+switch
+case
+break
+default
+
+No uses if para resolverlo.
+
+
+
+🧪 Ejercicio final del Día 4
+
+Vamos a hacer algo un poquito más interesante.
+
+Crea un programa que pregunte:
+
+Selecciona una operación:
+
+
+1. Sumar
+2. Restar
+3. Multiplicar
+4. Dividir
+
+Después debe pedir dos números.
+
+Por ejemplo:
+
+Selecciona una operación: 1
+
+
+Número 1: 10
+Número 2: 5
+
+
+Resultado: 15
+Reglas
+
+Utiliza:
+
+Scanner
+int para la opción
+double para los números
+switch
+case
+break
+default
+Pista
+
+La estructura será aproximadamente:
+
+switch (opcion) {
+
+
+    case 1:
+        // sumar
+        break;
+
+
+    case 2:
+        // restar
+        break;
+
+
+    // ...
+
+
+    default:
+        // opción inválida
+}
+
+No te preocupes todavía por manejar división entre cero. Eso lo veremos más adelante con validaciones y excepciones.
