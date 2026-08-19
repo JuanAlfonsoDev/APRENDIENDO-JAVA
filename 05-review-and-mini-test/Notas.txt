@@ -1,0 +1,123 @@
+💻 Ejercicio 1
+
+Escribe un programa que pida la edad y muestre:
+
+Menor de 12 → "Niño"
+De 12 a 17 → "Adolescente"
+De 18 a 59 → "Adulto"
+60 o más → "Adulto mayor"
+
+Utiliza:
+
+Scanner
+if
+else if
+else
+
+
+🧪 Ejercicio 2 — Menú de estudiante
+
+Crea un programa que muestre:
+
+===== MENÚ =====
+1. Ver estado académico
+2. Ver tipo de estudiante
+3. Salir
+
+
+Seleccione una opción:
+
+Primero debes pedir:
+
+Nombre:
+Edad:
+
+Y guardar ambos datos.
+
+Reglas
+Opción 1 — Estado académico
+
+Pregunta:
+
+Digite su nota:
+
+Y usando if / else if / else:
+
+Menor que 3.0 → "Reprobado"
+3.0 a menor que 4.0 → "Aprobado"
+4.0 a 5.0 → "Excelente"
+Opción 2 — Tipo de estudiante
+
+Usando la edad:
+
+Menor de 18 → "Estudiante menor de edad"
+18 o más → "Estudiante mayor de edad"
+Opción 3
+
+Mostrar:
+
+Saliendo del programa...
+Cualquier otra opción
+Opción inválida
+🔑 Lo que debes utilizar
+
+Este ejercicio debe tener:
+
+Scanner
+String
+int
+double
+switch
+case
+break
+if
+else if
+else
+
+No te voy a dar la estructura del código. Quiero que tú decidas dónde usar switch y dónde usar if.
+
+Cuando lo termines, mándame el código y lo revisamos línea por línea.
+
+
+Último reto del Día 5
+
+Ahora sí, sin darte la estructura.
+
+Haz un programa de inicio de sesión que tenga:
+
+Datos
+    Usuario correcto: admin
+    Contraseña correcta: 1234
+
+El programa debe pedir:
+
+    Usuario:
+    Contraseña:
+
+Y comprobar:
+
+    Si usuario y contraseña son correctos → "Bienvenido"
+    Si el usuario es incorrecto → "Usuario incorrecto"
+    Si la contraseña es incorrecta → "Contraseña incorrecta"
+Debes utilizar
+Scanner
+String
+.equals()
+if
+else if
+else
+&&
+Ejemplo
+    Usuario: admin
+    Contraseña: 1234
+
+
+Bienvenido
+
+Y:
+
+Usuario: Juan
+Contraseña: 1234
+
+
+Usuario incorrecto
