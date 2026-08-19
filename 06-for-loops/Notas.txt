@@ -1,0 +1,68 @@
+🎯 EJERCICIO 1
+
+Quiero que hagas un programa que imprima los números del:
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+Pero utilizando un for.
+
+Restricción
+
+No puedes escribir:
+
+System.out.println(1);
+System.out.println(2);
+...
+
+Solo necesitas:
+
+for (...) {
+    ...
+}
+
+
+🎯 Ahora vamos con el ejercicio 2
+
+Quiero que modifiques tu programa para que imprima solo los números pares del 1 al 10:
+
+2
+4
+6
+8
+10
+Pista
+
+Puedes utilizar:
+
+i % 2
+
+El operador % nos da el resto de una división.
+
+Por ejemplo:
+
+4 % 2 → 0
+5 % 2 → 1
+---------------------------------------------------------------------------------------------------------------
+
+🎯 Siguiente ejercicio
+
+Ahora quiero que hagas algo diferente:
+
+Imprime la tabla del 5:
+
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+...
+5 x 10 = 50
+
+Utiliza solamente un for.
