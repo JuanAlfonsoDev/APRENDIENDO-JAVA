@@ -66,3 +66,39 @@ Imprime la tabla del 5:
 5 x 10 = 50
 
 Utiliza solamente un for.
+
+
+------------------------------------------------------------------------------------------------
+
+
+Siguiente reto del Día 6
+
+Ahora quiero que hagas las tablas del 1 al 5.
+
+El resultado debería comenzar:
+
+1 x 1 = 1
+1 x 2 = 2
+...
+1 x 10 = 10
+
+
+2 x 1 = 2
+2 x 2 = 4
+...
+
+y terminar:
+
+5 x 10 = 50
+🔑 Pista
+
+Esta vez vas a necesitar dos for:
+
+for (...) {
+    
+    for (...) {
+        
+    }
+}
+
+Esto se llama un for anidado.
