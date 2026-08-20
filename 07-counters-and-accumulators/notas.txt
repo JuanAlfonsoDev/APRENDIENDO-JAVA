@@ -1,0 +1,184 @@
+🎯 EJERCICIO 1
+
+Haz un programa que recorra los números del 1 al 100 y diga:
+
+La suma es: 5050
+Debes utilizar:
+for
+Una variable acumuladora
++=
+
+No necesitas Scanner.
+
+La estructura mental es:
+
+crear suma
+     ↓
+for 1 → 100
+     ↓
+sumar cada número
+     ↓
+mostrar resultado
+
+
+-------------------------------------------------------------------------------------------------------------------
+
+🎯 Ejercicio 2 — Contador
+
+Ahora vamos a hacer lo contrario.
+
+Recorre los números del 1 al 100 y cuenta cuántos son múltiplos de 5.
+
+El resultado debe ser:
+
+Cantidad de múltiplos de 5: 20
+Pista
+
+Ya conoces %.
+
+Un número es múltiplo de 5 cuando:
+
+numero % 5 == 0
+
+Y necesitas un:
+
+int contador = 0;
+
+Después, cuando encuentres uno:
+
+contador++;
+
+La estructura mental es:
+
+contador = 0
+
+
+for 1 → 100
+    ¿es múltiplo de 5?
+        sí → contador++
+
+
+mostrar contador
+
+-------------------------------------------------------------------------------------------------------------
+
+
+🎯 Ejercicio 3 — Promedio
+
+Ahora vamos a combinar contador + acumulador.
+
+Haz un programa que recorra los números del 1 al 10 y calcule el promedio.
+
+Debe mostrar:
+
+Suma: 55
+Cantidad: 10
+Promedio: 5.5
+Necesitas
+
+Un acumulador:
+
+int suma = 0;
+
+Un contador:
+
+int contador = 0;
+
+Y después del ciclo:
+
+promedio = suma / cantidad
+
+⚠️ Ojo: el promedio debe ser double, no int, porque puede tener decimales.
+
+
+----------------------------------------------------------------------------------------------
+
+🎯 Siguiente ejercicio
+
+Ahora vamos a hacer algo un poco más parecido a lo que vas a encontrar en Estructuras de Datos:
+
+Recorre los números del 1 al 100 y encuentra:
+
+El número mayor
+El número menor
+
+El programa debe terminar mostrando:
+
+Mayor: 100
+Menor: 1
+
+Aquí no quiero que uses Math.max() ni Math.min(). Quiero que practiquemos cómo ir guardando el mayor y el menor manualmente.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+🎯 Ejercicio 5 — Notas de estudiantes
+
+Haz un programa que pregunte primero:
+
+¿Cuántas notas vas a ingresar?
+
+Por ejemplo:
+
+¿Cuántas notas? 5
+
+Después, usando un for, debe pedir las 5 notas:
+
+Nota 1: 3.5
+Nota 2: 4.2
+Nota 3: 2.8
+Nota 4: 4.7
+Nota 5: 3.9
+
+Y al final mostrar:
+
+Suma: 19.1
+Promedio: 3.82
+Pero vamos a agregar algo más
+
+También debe mostrar:
+
+Nota mayor: 4.7
+Nota menor: 2.8
+🧠 Vas a necesitar
+
+Ya conoces prácticamente todo:
+
+Scanner
+for
+double
+acumulador
+contador
+if
+comparación
+(double) si lo necesitas
+
+La lógica será:
+
+preguntar cantidad
+        ↓
+   iniciar variables
+        ↓
+      for
+        ↓
+   pedir una nota
+        ↓
+   acumularla
+        ↓
+   comparar mayor
+        ↓
+   comparar menor
+        ↓
+      repetir
+        ↓
+mostrar resultados
+⚠️ Una pista importante
+
+Como no sabemos de antemano cuál será la primera nota, no hagas todavía:
+
+double mayor = 0;
+double menor = 0;
+
+Piensa:
+
+¿Con qué valor debería comenzar mayor y menor para poder compararlos con la primera nota?
+
